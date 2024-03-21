@@ -1,12 +1,20 @@
 <?php
 require_once('shared/header.php');
-
-
 ?>
-    <div></div>
+
+<img src="img/pexels-ray-piedra-1468412.jpg"  class="img" alt="">
+<div class="main ">
+    <div class="bar"></div>
+    <div class="text">
+        <h1>Projeto DSI-2</h1>
+        <p>Preços super acessíveis e produtos exclusivos</p>
+        
+    </div>
     
-    
-    <H1>PROJETO 1  </H1>
+
+</div>
+
+<script src="js/script.js"> </script>
 
 <?php
 require_once('shared/footer.php');

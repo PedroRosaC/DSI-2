@@ -8,21 +8,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/LogoPedrohub.png" >
-    <title>Projeto Site</title>
+    <title>Entrar</title>
 </head>
 <body>
-<div class="header">
-        <section class="header-content">
-        <div class="logo"><img class="logo" src="img/LogoPedrohub.png" alt=""></div>
-        <ul class="header-list">
-
-            <a href="entrar.php"><li class="list-item entrar">Entrar</li></a>
-            <a href="criar.php"><li class="list-item criar">Criar Conta</li></a>
-            <a href=""><li class="list-item">Vendas</li></a>
-            <a href=""><li class="list-item">Criador</li></a>
-
-        </ul>
-    </section>
-</div>
-<div class="header-space"></div>
-
+    <div class="container border">
+        <h1>Entrar</h1>
+        <br>
+        <form action="Post">
+            <h3>E-mail:</h3>
+            <input type="email" class="input" name="email" placeholder="E-mail">
+            <h3>Senha:</h3>
+            <input type="text" class="input" name="senha" placeholder="Senha">
+            
+            <input type="submit" value="Entrar" class="submit border">
+        </form>
+    </div>
+</body>
+</html>
