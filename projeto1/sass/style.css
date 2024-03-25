@@ -61,21 +61,24 @@ body {
   box-shadow: 0px 0px 5px 0 white;
 }
 .header .header-content .header-list .entrar:hover {
-  background-color: rgb(41, 194, 41);
-  border: 1px solid rgb(191, 255, 191);
-  box-shadow: 0px 0px 5px 0 rgb(136, 255, 162);
+  border: 1px solid rgb(41, 194, 41);
+  box-shadow: 0px 0px 5px 0 rgb(41, 194, 41);
 }
 .header .header-content .header-list .criar:hover {
-  background-color: rgb(50, 150, 243);
-  border: 1px solid rgb(178, 218, 255);
-  box-shadow: 0px 0px 5px 0 rgb(148, 239, 255);
+  border: 1px solid rgb(50, 150, 243);
+  box-shadow: 0px 0px 5px 0 rgb(50, 150, 243);
 }
 .header .header-content a {
   text-decoration: none;
   color: white;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .main {
+  cursor: default;
   width: 70%;
   min-height: 500px;
   margin: 50px 50px;

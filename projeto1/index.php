@@ -3,7 +3,7 @@ require_once('shared/header.php');
 ?>
 
 <img src="img/pexels-ray-piedra-1468412.jpg"  class="img" alt="">
-<div class="main ">
+<div class="main hidden">
     <div class="bar"></div>
     <div class="text">
         <h1>Projeto DSI-2</h1>
@@ -14,7 +14,7 @@ require_once('shared/header.php');
 
 </div>
 
-<script src="js/script.js"> </script>
+<script src="js/script.js"></script>
 
 <?php
 require_once('shared/footer.php');
