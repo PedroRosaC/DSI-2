@@ -37,6 +37,17 @@ body{
         justify-content: space-between;
         align-items: center;
         position: fixed;
+        .carrinho{
+            background-color: transparent;
+            padding: 10px 11px;
+            border-radius: 50%;
+            transition: 0.4s;
+            border: 1px solid transparent;
+            &:hover{
+                border: 1px solid white;
+                box-shadow: 0 0 5px 0px white;
+            }
+        }
         .logo{
             border-radius: 4px;
             height: 40px;
@@ -126,7 +137,7 @@ body{
 
 .container{
     margin: 50px auto;
-    width: 50%;
+    width: 30%;
     padding: 50px 60px;
     background-color: #111111;
     border-radius: 40px;

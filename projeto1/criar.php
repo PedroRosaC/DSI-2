@@ -14,7 +14,7 @@
     <div class="container border">
         <h1>Criar conta</h1>
         <br>
-        <form action="POST">
+        <form action="POST" >
             <h3>Nome:</h3>
             <input type="text" class="input" name="nome" placeholder="Nome">
             <h3>E-mail:</h3>
