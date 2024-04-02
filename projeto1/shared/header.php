@@ -21,7 +21,7 @@
 
         <ul class="header-list">
             <a href="entrar.php"><li class="list-item entrar">Entrar</li></a>
-            <a href="criar.php"><li class="list-item criar">Criar Conta</li></a>
+            
             <a href="vendas.php"><li class="list-item">Vendas</li></a>
             <a href=""><li class="list-item">Criador</li></a>
         </ul>

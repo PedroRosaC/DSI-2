@@ -14,13 +14,15 @@
     <div class="container border">
         <h1>Entrar</h1>
         <br>
-        <form action="Post">
+        <form method="Post">
             <h3>E-mail:</h3>
             <input type="email" class="input" name="email" placeholder="E-mail">
             <h3>Senha:</h3>
             <input type="text" class="input" name="senha" placeholder="Senha">
             
             <input type="submit" value="Entrar" class="submit border">
+            <br>
+            <section><p>Ainda não possui um cadastro?<a href="criar.php"  class="criar">Criar Conta</a></p></section>
         </form>
     </div>
 </body>

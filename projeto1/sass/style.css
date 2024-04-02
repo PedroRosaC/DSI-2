@@ -75,10 +75,6 @@ body {
   border: 1px solid rgb(41, 194, 41);
   box-shadow: 0px 0px 5px 0 rgb(41, 194, 41);
 }
-.header .header-content .header-list .criar:hover {
-  border: 1px solid rgb(50, 150, 243);
-  box-shadow: 0px 0px 5px 0 rgb(50, 150, 243);
-}
 .header .header-content a {
   text-decoration: none;
   color: white;
@@ -156,6 +152,27 @@ body {
 .container form .input::placeholder {
   color: #000000;
 }
+.container form section {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #9c9c9c;
+}
+.container form section .criar {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 100px;
+  padding: 4px;
+  border-bottom: 1px solid transparent;
+  transition: 0.4s;
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  text-align: center;
+}
+.container form section .criar:hover {
+  border-bottom: 1px solid rgb(50, 150, 243);
+  box-shadow: 0 5px 5px -5px rgb(50, 150, 243);
+}
 .container .submit {
   margin: 10px 0;
   background-color: rgb(255, 255, 255);
@@ -169,4 +186,42 @@ body {
 .container .submit:hover {
   background-color: #121212;
   color: white;
+}
+
+.vendas {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  margin: 50px 100px;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+.vendas .tabela-vendas {
+  background-color: #121212;
+}
+.vendas .tabela-vendas th {
+  border-bottom: 1px solid gray;
+  margin: 0;
+  text-align: center;
+  padding: 5px 30px;
+}
+.vendas .tabela-vendas td {
+  text-align: center;
+  padding: 5px 30px;
+}
+
+.edit {
+  cursor: pointer;
+  transition: 0.4s;
+}
+.edit:hover {
+  background-color: rgba(15, 0, 228, 0.4);
+}
+
+.delete {
+  cursor: pointer;
+  transition: 0.4s;
+}
+.delete:hover {
+  background-color: rgba(204, 45, 45, 0.4);
 }/*# sourceMappingURL=style.css.map */
