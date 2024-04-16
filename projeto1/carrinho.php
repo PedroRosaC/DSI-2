@@ -2,7 +2,7 @@
 require_once('shared/header.php');
 ?>
 
-<img src="img/pexels-ray-piedra-1468412.jpg"  class="img" alt="">
+<img src="img/shorts.png"  class="img">
 
 
 <div class="carrinho-itens">

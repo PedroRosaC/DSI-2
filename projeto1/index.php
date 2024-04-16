@@ -2,7 +2,7 @@
 require_once('shared/header.php');
 ?>
 
-<img src="img/pexels-ray-piedra-1468412.jpg"  class="img" alt="">
+<img src="img/Lebron-James-Shoes.jpg"  class="img" alt="">
 <div class="main hidden">
     <div class="bar"></div>
     <div class="text">
