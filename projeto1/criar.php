@@ -14,7 +14,7 @@
     <div class="container border">
         <h1>Criar conta</h1>
         <br>
-        <form method="Post">
+        <form method="Post" action="controller/criarController.php">
             <h3>Nome:</h3>
             <input type="text" class="input" name="nome" placeholder="Nome">
             <h3>E-mail:</h3>
@@ -26,5 +26,6 @@
             <input type="submit" value="submit" class="submit border">
         </form>
     </div>
+    <a href="index.php" class="home">Home</a>
 </body>
 </html>

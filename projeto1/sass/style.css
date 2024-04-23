@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: relative;
   background-color: rgba(12, 12, 12, 0.7);
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.7);
 }
@@ -35,7 +35,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
 }
 .header .header-content .carrinho {
   background-color: transparent;
@@ -108,6 +107,18 @@ body {
   height: 80px;
   margin-right: 10px;
   background-image: linear-gradient(to top, white, gray, black);
+}
+
+.home {
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+  transition: 0.3s;
+  border-bottom: 1px solid transparent;
+}
+.home:hover {
+  border-bottom: 1px solid rgb(102, 255, 0);
+  box-shadow: 0 5px 5px -5px rgb(136, 255, 0);
 }
 
 .img {
@@ -223,4 +234,56 @@ body {
 }
 .delete:hover {
   background-color: rgba(204, 45, 45, 0.4);
+}
+
+.confirmar {
+  max-width: 300px;
+  padding: 5px;
+  background-color: #9c9c9c;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.confirmar:hover {
+  background-color: #121212;
+}
+.confirmar:active {
+  scale: 0.95;
+}
+
+.carrinho-itens {
+  padding: 10px;
+  color: white;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin: 0 10%;
+  min-height: 40%;
+}
+.carrinho-itens .item {
+  margin: 10px 0;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline center;
+  position: relative;
+}
+.carrinho-itens .item .item-text {
+  padding: 5px 10px;
+  max-width: 300px;
+  background-color: #000000;
+}
+.carrinho-itens .item .item-img {
+  max-width: 250px;
+  overflow: hidden;
+  background-color: #000000;
+}
+.carrinho-itens .item .item-img img {
+  border-radius: 4px;
+  max-width: 250px;
+  filter: drop-shadow(0px 0px 1px white);
 }/*# sourceMappingURL=style.css.map */

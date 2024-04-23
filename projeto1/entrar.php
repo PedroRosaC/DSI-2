@@ -24,5 +24,7 @@
             <section><p>Ainda não possui um cadastro?<a href="criar.php"  class="criar">Criar Conta</a></p></section>
         </form>
     </div>
+
+    <a href="index.php" class="home">Home</a>
 </body>
 </html>
